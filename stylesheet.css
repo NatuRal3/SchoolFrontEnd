@@ -1,11 +1,16 @@
 body {background-color: black;}
 
-.h1 {
+h1 {
     text-align: center;
     font-size: 35px;
     color: blanchedalmond;
 }
 
-text {
-    color: blanchedalmond;
+
+h2 {
+    color: gold;
+}
+
+p {
+    color: hotpink;
 }
