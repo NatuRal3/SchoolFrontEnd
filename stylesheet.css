@@ -4,18 +4,20 @@ body {
 
 h1 {
   font-family: garamond;
-  text-align: center;
+  /* text-align: center; */
   font-size: 60px;
   color: gold;
+  position: absolute;
+  top: 30%;
 }
 
 h2 {
   color: gold;
-  text-align: center;
+  /* text-align: center; */
 }
 
 p {
   color: grey;
   top: 460px;
-  text-align: center;
+  /*   text-align: center; */
 }
