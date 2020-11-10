@@ -7,7 +7,7 @@ h1 {
   /* text-align: center; */
   font-size: 60px;
   color: gold;
-  position: absolute;
+  position: relative;
   top: 30%;
 }
 
