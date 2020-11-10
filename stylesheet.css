@@ -4,11 +4,11 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 40px;
-  color: blanchedalmond;
-  text-align: center;
+  font-size: 60px;
+  color: gold;
   position: absolute;
-  top: 300px;
+  top: 350px;
+  left: 50%;
 }
 
 h2 {
@@ -18,10 +18,7 @@ h2 {
 
 p {
   color: hotpink;
-  text-align: center;
-}
-
-div.absolute {
   position: absolute;
-  top: 90px;
+  top: 460px;
+  text-align: center;
 }
