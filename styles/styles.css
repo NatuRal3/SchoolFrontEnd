@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #202020;
+  text-align: center;
+}
+
+footer {
+  background-color: #202020;
+  color: #fff;
+  text-align: left;
+}
+
+.menu li {
+  overflow: hidden;
+  list-style-type: none;
+  display: inline;
+  padding: 5%;
+  font-size: 2rem;
+}
+nav {
+  display: inline;
+}
+
+address {
+  align-items: left;
+}
+
+main {
+  text-align: center;
+}
