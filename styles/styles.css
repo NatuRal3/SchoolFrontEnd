@@ -1,3 +1,5 @@
+/*############ TOP LEVEL ############*/
+
 @font-face {
   font-family: "Roboto";
   src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
@@ -7,32 +9,83 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+a:link,
+a:visited {
+  text-decoration: none;
+  color: rgb(11, 67, 82);
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/*############ Head ############*/
 header {
   background-color: #202020;
   text-align: center;
-}
-
-footer {
-  background-color: #202020;
-  color: #fff;
-  text-align: left;
+  /*   margin: 0px;
+  border: 0px;
+  padding: 0px; */
 }
 
 .menu li {
   overflow: hidden;
   list-style-type: none;
   display: inline;
-  padding: 5%;
+  padding: 2%;
   font-size: 2rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 nav {
   display: inline;
 }
 
-address {
-  align-items: left;
+/*############ Body ############*/
+body {
+  margin: 0;
 }
 
 main {
+  background-color: white;
   text-align: center;
+  display: block;
+}
+
+#box_main {
+  display: inline-block;
+  max-width: 27%;
+  padding: 0px 10px 0px 10px;
+}
+
+/*############ Footer ############*/
+
+footer {
+  background-color: #202020;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  /*min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;*/
+}
+
+#box_footer {
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 90px 0px 90px;
+}
+
+#box_footer li {
+  overflow: hidden;
+}
+
+#li_header {
+  font-size: 1.2rem;
 }
