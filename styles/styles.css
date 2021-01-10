@@ -1,4 +1,4 @@
-/*############ TOP LEVEL ############*/
+/*############ Global ############*/
 
 @font-face {
   font-family: "Roboto";
@@ -20,72 +20,76 @@ a:hover {
   color: white;
 }
 
+li {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  /* grid-template-areas:
+    "grid-header grid-menu"
+    "grid-main"
+    "grid-footer";*/
+}
+
+/*############ GRID ############*/
+
 /*############ Head ############*/
 header {
+  /* grid-area: grid-header;*/
   background-color: #202020;
-  text-align: center;
-  /*   margin: 0px;
-  border: 0px;
-  padding: 0px; */
+  text-align: left;
+}
+
+.menu {
+  grid-area: grid-menu;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .menu li {
   overflow: hidden;
   list-style-type: none;
-  display: inline;
-  padding: 2%;
-  font-size: 2rem;
+  font-size: 4rem;
   text-decoration: none;
-  display: flex;
-  justify-content: center;
-}
-nav {
-  display: inline;
+  padding: 0px 20px 0px 20px;
 }
 
 /*############ Body ############*/
-body {
-  margin: 0;
-}
 
 main {
+  /* grid-area: grid-main; */
   background-color: white;
   text-align: center;
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 #box_main {
-  display: inline-block;
   max-width: 27%;
-  padding: 0px 10px 0px 10px;
+  padding-left: 3rem;
 }
 
 /*############ Footer ############*/
 
 footer {
+  /*grid-area: grid-footer;*/
+
   background-color: #202020;
   color: #fff;
+
   display: flex;
   justify-content: center;
+
   font-size: 0.8rem;
   font-family: "Roboto", sans-serif;
-  text-align: center;
-  /*min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto;*/
+
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
-#box_footer {
-  text-align: left;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0px 90px 0px 90px;
-}
-
-#box_footer li {
-  overflow: hidden;
-}
-
-#li_header {
+.li_header {
   font-size: 1.2rem;
 }
